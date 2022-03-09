@@ -1,0 +1,361 @@
+h2{
+    opacity: 0.4;
+    font-family: monospace;
+    margin-left: 71%;
+    
+    display:inline;
+}
+
+#menu {
+    height: 2rem;
+    width: 2rem;
+    opacity: 0.4;
+    display:inline;
+    margin-left: 4%;
+    margin-bottom: 1%;
+}
+
+.header {
+    display: table;
+    width: 100%;
+    height: 15%;
+    margin-top: 2%;
+}
+
+.new-task {
+    border: 1px solid white;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	outline:0;
+    box-shadow: 0px 0px 6px 0.5px #adadad;
+    display: inline-block;
+    margin: 0;
+    height: 3.7rem;
+    width: 25rem;
+}
+
+.new-task[type=text]:focus {
+    border: 3px solid white white;
+    border-color: white;
+    box-shadow: 0px 0px 6px 0.5px #3e61fa;
+    text-align: left;
+  }
+
+/*.task-edit {
+    margin-top: 7%;
+    
+    
+    width: 18rem;
+    
+}*/
+
+.new-task-edit {
+    border: 1px solid white;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	outline:0;
+    box-shadow: 0px 0px 6px 0.5px #adadad;
+    margin-top: 1.25rem;
+    height: 3.7rem;
+    width: 20rem;
+    padding-left: 5px;
+    position:relative;
+}
+
+.new-task-edit[type=text]:focus {
+    border: 3px solid white white;
+    border-color: white;
+    box-shadow: 0px 0px 6px 0.5px #3e61fa;
+    text-align: left;
+  }
+
+
+.list {
+    margin: 10px 10px;
+    padding-left: 0px;
+    
+}
+
+.new-ul {
+    border: 1px solid white;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	outline:0;
+    box-shadow: 0px 0px 6px 0.5px #adadad;
+    align-items: center;
+    margin: 1.5rem;
+    height: 3.9rem;
+    width: 35rem;
+    padding-left: 0px;
+}
+
+.additem-button {
+    height: 3rem;
+    width: 8rem;
+    border-radius: 7%;
+    background-color: #3e61fa;
+    border-width: 0;
+    font-size: 1.8rem;
+    color: #F5F5F5;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.additem-button:hover {
+    
+    border-width: 1px;
+    border-color: #3e61fa;
+    background-color: #F5F5F5;
+    color: #3e61fa;
+  }
+
+.delete-button {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-size: 1.5rem 1.5rem;
+    background-color: transparent;
+    border-width: 0;
+    background-image: url(images/trash-icon.png);
+    text-align: right;
+    display: inline-flex;
+}
+
+.edit-button {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-size: 1.5rem 1.5rem;
+    background-color: transparent;
+    border-width: 0;
+    background-image: url(images/edit-icon.png);
+    text-align: right;
+    display: inline-flex;
+}
+
+.save-changes-button {
+    height: 3rem;
+    width: 8rem;
+    border-radius: 7%;
+    background-color: #3e61fa;
+    border-width: 0;
+    font-size: 1.8rem;
+    color: #F5F5F5;
+    text-align: center;
+    opacity: 0.9;
+    margin-top: 1.25rem;
+
+    position:relative;
+}
+
+.save-changes-button:hover {
+    
+    border-width: 1px;
+    border-color: #3e61fa;
+    background-color: #F5F5F5;
+    color: #3e61fa;
+  }
+
+.list-body {
+    background-color:white;
+    width: 40rem;
+    height: 50rem;
+    margin-left: 100px;
+    margin-top: 100px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 6px 0.5px #d6d5d5;
+}
+
+#time1 {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.scroll {
+    /*overflow-y: scroll;*/
+    overflow: auto;
+}
+
+.scroll::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.scroll::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+.scroll::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #1f1e1e;
+}
+
+#empty-page-image {
+    height: 12rem;
+    width: 12rem;
+    opacity: 0.1;
+    margin-bottom: 20px;
+}
+
+#empty-page-button {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    background-color: #3e61fa;
+    border-width: 0;
+    padding-bottom: ;
+    font-size: 2rem;
+    color: #F5F5F5;
+    text-align: center;
+    opacity: 0.9;
+}
+
+#empty-page-button:hover {
+    position: relative;
+    border-width: 1px;
+    border-color: #3e61fa;
+    background-color: #F5F5F5;
+    color: #3e61fa;
+  }
+
+  .container2 {
+    height: 6rem;
+    width: 6rem;
+  }
+
+li {
+    list-style-type: none;
+    background-position: 0 0;
+    background-size: 0.5rem 0.5rem;
+    background-repeat: no-repeat;
+}
+
+.red-li {
+    background-image: url(images/red-dot.png);
+}
+
+.blue-li {
+    background-image: url(images/blue-dot.png);
+}
+
+.green-li {
+    background-image: url(images/green-dot.png);
+}
+
+.yellow-li {
+    background-image: url(images/yellow-dot.png);
+}
+
+.red-option {
+    background-color:transparent ;
+    background-image: url(images/green-dot.png);
+    color: transparent;
+    border-radius: 50%;
+    
+}
+
+.dot-images {
+    height: 1rem;
+    width: 1rem;
+    text-align: left;
+}
+
+.dropdown-ul {
+    background-color: transparent;
+}
+
+#dropdown-ul {
+    background-color:transparent;
+    min-width: 0;
+    border: 1px solid white;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	outline:0;
+    box-shadow: 0px 0px 6px 0.5px #adadad;
+}
+
+.dropdown-button {
+    border: 1px solid white;
+    background-color: white;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	outline:0;
+    box-shadow: 0px 0px 6px 0.5px #adadad;
+    display: inline-block;
+    margin: 0;
+    height: 3.7rem;
+    width: 5rem;
+}
+
+.colors {
+    display: inline-block;
+}
+
+.dropdown-div {
+    text-align: left;
+    display: inline-block;
+}
+
+.color-li {
+    text-align: left;
+    display: inline;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-top: 0.75rem;
+}
+
+#color-li {
+    text-align: left;
+    display: inline-flex;
+}
+
+.item {
+    display: inline-flex;
+    height: 1.5rem;
+    width: 27rem;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+.time {
+    font-size: 0.9rem;
+    opacity: 0.6;
+    padding-left: 4.1rem;
+    display: inherit;
+   
+}
+
+span {
+    
+}
+
+.margin-buttom-50 {
+    margin-bottom: 10.5rem;
+}
+
+#colors-and-input {
+    width: 100%;
+}
+
+#add-input {
+    text-align: left;
+}
+
+#div33 {
+    height: 3.7rem;
+    margin-bottom: 1rem;
+}
